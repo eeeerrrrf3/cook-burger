@@ -4,6 +4,10 @@ local Window = Library.CreateLib("Topikhub", "RJTheme3")
 
 local Tab = Window:NewTab("Hub free")
 
+Section:NewButton("My script lol", "Left CTRL + Click", function()
+		
+end)		
+
 local Section = Tab:NewSection("Top scripts")
 
 Section:NewButton("click tp", "Left CTRL + Click", function()
@@ -58,8 +62,6 @@ Event:FireServer(A_1, A_2)
  
 local Event = game:GetService("Workspace").Restaurant.Fridge.FridgeDoor.FridgeDoor.ContextAction
 Event:FireServer()
-
-
  
 local Event = game:GetService("Workspace").Items.Microwave.Body.ContextAction
 Event:FireServer()
