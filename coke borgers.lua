@@ -2,11 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Roboj
 
 local Window = Library.CreateLib("Topikhub", "RJTheme3")
 
-local Tab = Window:NewTab("Hub free")
-
-Section:NewButton("My script lol", "Left CTRL + Click", function()
-		
-end)		
+local Tab = Window:NewTab("Hub free")	
 
 local Section = Tab:NewSection("Top scripts")
 
